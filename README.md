@@ -24,3 +24,10 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 >a simple panorama plugin based on THREE.JS 
 
 >including CSS3DRenderer && DeviceOrientationControls
+
+```
+import {Panorama} from 'panorama';
+
+
+```
+

@@ -36,7 +36,7 @@ export class Panorama {
     this.lon = -110;
     this.lat = -50;//调整初始值
     this.domElement = null;
-    this.sourceData = JSON.parse(this._config.sourceData);
+    this.sourceData = typeof(this._config.sourceData) == 'string' ? JSON.parse(this._config.sourceData) : this._config.sourceData;
     this.starts = {
       pz: {
         lon: 90,
