@@ -18,12 +18,14 @@
       this.initPanorama();
     },
     methods: {
+
+      //
       initPanorama() {
         //initFn
         new Panorama({
           sourceData: {
             nx: {
-              url: "http://img-ys011.didistatic.com/static/carshare/orion_mis/0709f4251335_20180917150716",
+              url: "http://img-ys011.didistatic.com/static/carshare/orion_mis/b32804dc4532_20180917150731",
               tags: [
                 {
                   active: true,
