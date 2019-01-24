@@ -321,7 +321,6 @@ export class Panorama {
   }
 
   callDetailView(e) {
-    Omega.trackEvent('static-h5-panorama-maker', '', {page: 'static-h5-panorama-pano_car'}, {label: e.currentTarget.lastChild.innerHTML});
     e.stopPropagation();//阻止冒泡,遮罩事件无法影响上层(box)
     this.canMove = false;
     let mask = document.getElementById('mask');

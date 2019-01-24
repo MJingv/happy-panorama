@@ -28,6 +28,25 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ```
 import {Panorama} from 'panorama';
 
+sourcedata
+ nx: {
+      url: "xx",// the url of img
+      tags: [
+        {
+          active: true,
+          content: "the content of tag",
+          images: ["xx"],//the images-list of the dot
+          label: "the label of dot",
+          position: {x: 430, y: 589},//the position of the dot,base from left-top
+          title: "the title of dot",
+        }
+      ],
+    },
+ ny:{...},
+ nz:{...},
+ px:{...},
+ py:{...},
+ pz:{...}
 
 ```
 
