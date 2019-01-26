@@ -49,6 +49,18 @@ sourcedata
  pz:{...}
 
 ```
->demo-git
+####demo-git
 
 ![image](https://github.com/MJingv/happy-panorama/blob/master/src/assets/show.gif)
+
+####abridge building speed
+##### 1.happypack-plugin
+- 按需加载 import {Panorama} from 'panorama';
+- 启用happypack多核构建项目
+- 修改source-map配置
+- 启用DllPlugin和DllReferencePlugin预编译库文件
+
+##### 2.pacle 
+
+##### 3.roolup
+
